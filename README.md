@@ -5,4 +5,4 @@ Feature:
 3. store SSID ans PW in NVM
 4. Connect to Home assistance via MQTT
 5. Upload system status to thingspeaker
-6. Get disttance from Owntracks via QMTT"# SmartFeeder" 
+6. Get disttance from Owntracks via QMTT
