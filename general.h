@@ -23,15 +23,11 @@
 #include "cmdq.h"
 #include "event.h"
 #include "mqtt.h"
+
+#include "door.h"
+#include "distance.h"
+#include "device.h"
 #include "thingspeak.h"
-#include "adc2.h"
-
-
-
-//#include "door.h"
-//#include "distance.h"
-//#include "device.h"
-
 
 #if defined (ESP32)
 
@@ -55,8 +51,8 @@
 #endif
 
 
-void set_system_status(int status);
-void set_feed_timeout_flag(bool status);
-int Get_feed_time(void);
+
+
+
 
 #endif

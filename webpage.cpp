@@ -174,7 +174,7 @@ static void webpage_setting_page()
 static void webpage_garage_page()
 {
     Serial.println("Open Garage");
-    //door_Open_Garage();
+    door_Open_Garage();
     content = "{\"Success\":\}";
     statusCode = 200;
     server.send(statusCode, "application/json", content); 
@@ -183,8 +183,9 @@ static void webpage_garage_page()
 static void webpage_cleareeprom_page()
 {
     Serial.println("Open Garage");
-    //door_Open_Garage();
+    door_Open_Garage();
     content = "{\"Success\":\}";
     statusCode = 200;
     server.send(statusCode, "application/json", content); 
 }
+
